@@ -1,0 +1,65 @@
+
+
+1.Explain about the main method in java?
+
+ANS:
+A main() method in java is an entry point to start the execution of a program. 
+Every Java application has at least one class and at least one main method. 
+Normally, an application consists of many classes and only one of the class needs to have a main method.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2.What are the different  Control flow Statements available in java?
+
+ANS:
+A control statement in java is a statement that determines whether the other statements will be executed or not. 
+It controls the flow of a program. An 'if' statement in java determines the sequence of execution between a set of two statements.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3.What is the Difference betweeen break and continue statements?
+ANS:
+The primary difference between break and continue statement in C is that the break statement leads to an immediate exit of the innermost switch or enclosing loop. 
+On the other hand, the continue statement begins the next iteration of the while, enclosing for, or do loop.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4.What is an Array? How will you declare an array in java?
+
+ANS:
+an array is a container object that holds a fixed number of values of a single type. 
+The length of an array is established when the array is created. After creation, its length is fixed.
+type var-name[]; OR type[] var-name; An array declaration has two components: the type and the name.
+ type declares the element type of the array. The element type determines the data type of each element that comprises the array.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+5.When will you get ArrayIndexOutOfBoundsException?
+Ans:
+ArrayIndexOutOfBoundsException occurs when we access an array, or a Collection, that is backed by an array with an invalid index. 
+This means that the index is either less than zero or greater than or equal to the size of the array.
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+6.Define the Syntax to create an object for a class?
+Ans:
+When we create an instance of the class by using the new keyword, it allocates memory (heap) for the newly created object and also returns the reference of that object to that memory. The new keyword is also used to create an array.
+ The syntax for creating an object is: 
+ClassName object = new ClassName();
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+7.What is Variable?How will you declare a variables in java?
+
+ANS: 
+Todeclare a variable in Java, all that is needed is the data type followed by the variable name: int numberOfDays;
+ In the above example, a variable called "numberOfDays" has been declared with a data type of int. Notice how the line ends with a semi-colon
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+8.What is String in java? Is it a Data Type?
+
+ANS:
+String. A string is a special data type in java, where it contradicts the fact that non-primitive types are defined by programmers.
+ The string data type is a non-primitive data type but it is predefined in java, some people also call it a special ninth primitive data type.
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+9.What are the different ways to create the String Object in java?
+
+ANS:
+There are various ways you can create a String Object in Java:Using String literal. 
+You can create String objects with String literal. String str="Hello!";
+Using new keyword. This is the common way to create a String object in java. 
+Using character array. You could also convert character array into String here
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+10.What is the Difference between .Equals and ==? 
+
+ANS:
+In general, both equals() and “==” operators in Java are used to compare objects to check equality, but here are some of the differences between the two:
+ The main difference between the . equals() method and == operator is that one is a method, and the other is the operator.
